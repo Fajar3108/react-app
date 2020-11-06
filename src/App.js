@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let nama = "Maulana Fajar Ibrahim";
+  let kelas = "XI RPL";
+  let absen = "15";
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,8 @@ function App() {
         >
           Learn React
         </a>
+        <h1 className="App-nama">{nama}</h1>
+        <h2 className="App-detail">{kelas} | {absen}</h2>
       </header>
     </div>
   );

@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.App-nama {
+  line-height: 0;
+}
+
+.App-detail {
+  font-weight: 100;
+  line-height: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
